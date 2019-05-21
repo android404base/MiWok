@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_numbers_name"
+        style="@style/CategoryStyle"
+        android:background="@color/colorNumbers"
+        android:onClick="openNumbersList"/>
+    <TextView
+        android:id="@+id/tv_family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_family_name"
+        style="@style/CategoryStyle"
+        android:background="@color/colorFamily"
+        android:onClick="openFamilyList"/>
+    <TextView
+        android:id="@+id/tv_colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_color_name"
+        style="@style/CategoryStyle"
+        android:background="@color/colorColor"
+        android:onClick="openColorList"/>
+    <TextView
+        android:id="@+id/tv_phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_phrases_name"
+        style="@style/CategoryStyle"
+        android:background="@color/colorPhrases"
+        android:onClick="openPhrasesList"/>
+
+</LinearLayout>

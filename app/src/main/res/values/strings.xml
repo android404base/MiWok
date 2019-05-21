@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">MiWok</string>
+    <string name="tv_numbers_name">Numbers</string>
+    <string name="tv_family_name">Family Members</string>
+    <string name="tv_color_name">Colors</string>
+    <string name="tv_phrases_name">Phrases</string>
+
+</resources>

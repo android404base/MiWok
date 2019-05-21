@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiWok</string>
+    <string name="tv_numbers_name">Rakamlar</string>
+    <string name="tv_family_name">Aile Üyeleri</string>
+    <string name="tv_color_name">Renkler</string>
+    <string name="tv_phrases_name">İfadeler</string>
+</resources>
